@@ -20,4 +20,5 @@
 * http://127.0.0.1:5000 (flask will be running at this port in docker container)
 
 `ctrl + c` (to stop/exit the docker container)
+
 `docker compose down` (to remove the docker container)
