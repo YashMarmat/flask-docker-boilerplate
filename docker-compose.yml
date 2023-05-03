@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    ports:
+      # - "5000:5000"
+      - "8000:5000"     # custom ports (8000 for my machine and 5000 for container)
+    command: "flask run -h 0.0.0.0"
