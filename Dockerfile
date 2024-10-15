@@ -1,6 +1,6 @@
 FROM python:3.11.3-bullseye
 
-RUN apt-get update && apt-get upgrade
+RUN apt-get update && apt-get upgrade -y
 
 WORKDIR /app
 
